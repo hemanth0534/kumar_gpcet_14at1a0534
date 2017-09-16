@@ -110,12 +110,20 @@ students[] temp =new student[this.studentscount.length+1];
 
 	@Override
 	public void add(Student student, int index) {
+students[] temp =new student[this.studentscount.length+1];
+studentscount.add(0,"n");
+
 		
 	}
 
 	@Override
 	public void remove(int index) {
-		// Add your implementation here
+		
+    int origianl;
+    System.studentscount(original, 0, n, 0, index );
+    System.studentscount(original, index+1, n, index, original.length - index-1);
+    return n;
+}
 	}
 
 	@Override
